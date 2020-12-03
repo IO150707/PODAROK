@@ -1,0 +1,175 @@
+html{
+    background-image:url("https://im0-tub-ua.yandex.net/i?id=61ac26dcf80a3f11972d4e110650fcf4&n=13");
+}
+* {
+    font-family: "Comic Sans MS";
+}
+.menu {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+
+}
+.menu_item {
+    text-transform: uppercase;
+    list-style: none;
+    border-radius: 10px;
+
+}
+.menu_link {
+    text-decoration: none;
+    color: brown;
+    background-color: lightblue;
+    display: block;
+    margin-left: 10px;
+    padding: 10px 20px;
+    transition: all 300ms;
+    border-radius: 10px;
+    border: 3px solid gold;
+}
+.menu_link:hover{
+    background-color: cornflowerblue;
+    transition: all 300ms;
+    color: gold;
+}
+
+h1{
+    color: darkorchid;
+    text-align: center;
+    margin: 0%;
+    line-height: 300px;
+}
+.head1 {
+    color: gold;
+    text-align: center;
+}
+img {
+    border: 3px dotted greenyellow;
+    border-radius: 10px;
+    width: 500px;
+}
+.kart {
+    width: 100%;
+    min-height: 300px;
+    background-color: darkgray;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 23px;
+}
+.kart1 {
+    width: 150px;
+    height: 150px;
+    background-color: gold;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: all 300ms;
+
+}
+.img1 {
+    width: 100px;
+    boreder-radius: 10px;
+}
+.head{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://img1.akspic.ru/image/109219-tekstura-belye-liniya-uzor-stena-1920x1080.jpg");
+    border: 3px solid gold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.foot1 {
+    color: gold;
+    background-color: darkorchid;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.foot {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #151515;
+    position: relative;
+    bottom: 100px;
+    right: 3px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 3px solid gold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.menu1 {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    background-color: #151515;
+    border-radius: 10px;
+    border: 3px solid gold;
+}
+.kart1:hover{
+    background-color:orange;
+    width: 200px;
+    height: 200px;
+    transition: all 300ms;
+    color: darkorchid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.imgg{
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    border: 0px;
+}
+.img2{
+    min-width: 300px;
+    border: 5px outset darkorchid;
+    border-radius: 10px;
+}
+.foot3 {
+    color: gold;
+    background-color: darkorchid;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.foot2 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #151515;
+    position: relative;
+    bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 3px solid gold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.kartp{
+    text-align: center;
+    line-height: 5px;
+}
+video{
+  border-radius: 10px;
+  border: 3px solid gold;
+  width: 500px;
+}
